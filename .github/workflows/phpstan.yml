@@ -1,0 +1,19 @@
+name: phpstan
+
+on: ['push']
+
+jobs:
+
+  phpstan:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: php-actions/composer@v5
+
+      - name: PHPStan Static Analysis
+        uses: php-actions/phpstan@master
+        with:
+          configuration: phpstan.neon.dist
+          php_version: 8.1
+          extensions: curl, mbstring, zip, pcntl, bcmath, intl
+          memory_limit: 256M
