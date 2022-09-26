@@ -16,7 +16,7 @@
         "phpstan/phpstan-phpunit": "^1.0",
         "phpunit/phpunit": "^9.5",
         "roave/security-advisories": "dev-latest",
-        "symfony/var-dumper": "^6.1"
+        "symfony/var-dumper": "^5.0|^6.0"
     },
     "config": {
         "sort-packages": true,
