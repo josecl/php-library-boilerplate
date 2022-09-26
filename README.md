@@ -1,5 +1,8 @@
 # Boilerplate para proyectos Laravel
 
+[![phpstan](https://github.com/josecl/php-library-boilerplate/actions/workflows/phpstan.yml/badge.svg)](https://github.com/josecl/php-library-boilerplate/actions/workflows/phpstan.yml)
+[![tests](https://github.com/josecl/php-library-boilerplate/actions/workflows/tests.yml/badge.svg)](https://github.com/josecl/php-library-boilerplate/actions/workflows/tests.yml)
+
 ## Requerimientos
 
 - php 8.0
