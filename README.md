@@ -26,30 +26,10 @@ Cambiar las referencias, por ejemplo para un proyecto `user/example-project`:
 git remote add origin https://github.com/user/example-project.git
 ```
 
-## Features
+Reemplazar masivamente (case-sentitive) los strings:
 
-### routes
-
-Se incluye una ruta de ejemplo y un test "Hola mundo".
-
-En caso de no requerir rutas:
- 
-- Eliminar el archivo `src/routes.php`
-- Quitar las referencias de `src/PhpLibraryBoilerplateServiceProvider.php`.
-
-
-### config
-
-Se incluye un archivo de configuración y algunas configuraciones de ejemplo.
-
-En caso de no requerir archivo de configuración:
-
-- Eliminar el archivo `config/php-library-boilerplate.php`
-- Quitar las referencias de `src/PhpLibraryBoilerplateServiceProvider.php`.
-
-
-Reemplazar masivamente los strings:
-
+- `Josecl`: `User`
+- `josecl`: `user`
 - `php-library-boilerplate`: `example-project`
 - `PhpLibraryBoilerplate`: `ExampleProject`
 
