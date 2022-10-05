@@ -7,7 +7,7 @@
         beStrictAboutOutputDuringTests="true"
 >
   <testsuites>
-    <testsuite name="VendorName Test Suite">
+    <testsuite name="Test Suite">
       <directory>tests</directory>
     </testsuite>
   </testsuites>
@@ -25,6 +25,6 @@
     <junit outputFile="build/report.junit.xml"/>
   </logging>
   <php>
-    <env name="APP_KEY" value="XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"/>
+    <env name="APP_KEY" value="XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"/>
   </php>
 </phpunit>
